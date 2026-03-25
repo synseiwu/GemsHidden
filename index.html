@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>gemshidden — Premium creator-led digital learning</title>
-  <meta name="description" content="gemshidden sells premium digital learning passes, tutorials, breakdowns, and behind-the-scenes creator education." />
+  <title>Gems Hidden — Premium creator-led digital learning</title>
+  <meta name="description" content="Gems Hidden sells premium digital learning passes, tutorials, breakdowns, and behind-the-scenes creator education." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a href="index.html" class="brand"><span class="brand-mark"></span><span>gemshidden</span></a>
+      <a href="index.html" class="brand"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a class="active" href="index.html">Home</a>
         <a href="courses.html">Passes</a>
@@ -39,15 +39,15 @@
       <div class="container hero-grid">
         <div class="hero-copy">
           <span class="eyebrow">Premium digital education and behind-the-scenes creator content</span>
-          <h1>Learn from real creator progress inside gemshidden</h1>
-          <p>gemshidden is built to feel polished, trustworthy, and easy to buy from. Visitors can browse premium learning passes, create an account, and move from signup to checkout with a cleaner modern experience.</p>
+          <h1>Learn from real creator progress inside Gems Hidden</h1>
+          <p>Gems Hidden is built to feel polished, trustworthy, and easy to buy from. Visitors can browse premium learning passes, create an account, and move from signup to checkout with a cleaner modern experience.</p>
           <div class="btn-row">
             <a class="btn btn-primary" href="courses.html">Explore passes</a>
             <a class="btn btn-secondary" href="signup.html">Create account</a>
           </div>
           <div class="hero-stats">
             <div class="stat"><strong>Fast account flow</strong><span>Sign up, sign in, and manage a simple account view.</span></div>
-            <div class="stat"><strong>Checkout-ready</strong><span>Each pass can route to its own payment link when your Stripe URLs are added.</span></div>
+            <div class="stat"><strong>Checkout-ready</strong><span>Each pass can route to its own Stripe payment link once you paste your real checkout URLs into config.js.</span></div>
             <div class="stat"><strong>Trust-focused</strong><span>Policies, support information, and cleaner calls to action across the site.</span></div>
           </div>
         </div>
@@ -77,7 +77,14 @@
               </div>
             </div>
           </div>
+                <div class="banner">
+          <div>
+            <strong>Live-ready handoff included</strong>
+            <div class="small">Paste your Stripe links, support email, site URL, and Supabase keys into <strong>config.js</strong>.</div>
+          </div>
+          <a class="btn btn-secondary" href="signup.html">Test account flow</a>
         </div>
+</div>
       </div>
     </section>
 
@@ -87,9 +94,9 @@
         <h2 class="section-title">A cleaner buying experience with better quality-of-life details</h2>
         <p class="section-copy">The site now supports account pages, dedicated auth screens, purchase buttons built for direct payment redirects, and a more premium look that feels easier to trust.</p>
         <div class="grid grid-4" style="margin-top: 1.75rem;">
-          <article class="card"><div class="card-body"><div class="icon-chip">✨</div><h3>Sharper branding</h3><p>Every main page now uses the gemshidden name and a more cohesive premium visual style.</p></div></article>
+          <article class="card"><div class="card-body"><div class="icon-chip">✨</div><h3>Sharper branding</h3><p>Every main page now uses the Gems Hidden name and a more cohesive premium visual style.</p></div></article>
           <article class="card"><div class="card-body"><div class="icon-chip">🔐</div><h3>Auth pages included</h3><p>Dedicated sign in and sign up pages are part of the package and wired into the header.</p></div></article>
-          <article class="card"><div class="card-body"><div class="icon-chip">💳</div><h3>Checkout routing</h3><p>Pass buttons are ready to redirect to individual payment links once your real Stripe links are added.</p></div></article>
+          <article class="card"><div class="card-body"><div class="icon-chip">💳</div><h3>Checkout routing</h3><p>Pass buttons are ready to redirect to individual Stripe checkout links from one central config file.</p></div></article>
           <article class="card"><div class="card-body"><div class="icon-chip">📱</div><h3>Better mobile flow</h3><p>Responsive menu, clearer buttons, and cleaner spacing across mobile and desktop.</p></div></article>
         </div>
       </div>
@@ -101,7 +108,7 @@
           <span class="eyebrow">Built for conversion</span>
           <h2 class="section-title">Move people from curiosity to account creation to purchase</h2>
           <p class="section-copy">Instead of sending buyers into a dead end, the updated flow guides them through signup, checkout-ready passes, and support pages that make the business feel more complete.</p>
-          <div class="inline-note">Before launch, replace the placeholder Stripe links inside <strong>script.js</strong> with your real checkout URLs for each pass.</div>
+          <div class="inline-note">Before launch, replace the placeholder Stripe links and auth keys inside <strong>config.js</strong> with your live values.</div>
         </div>
         <div class="card">
           <div class="card-body">
@@ -143,7 +150,7 @@
             <div class="devlog-list">
               <div class="devlog-item"><strong>Cleaner navigation</strong><span>Less friction</span><p>Primary links are easier to scan and the action buttons stay consistent across the site.</p></div>
               <div class="devlog-item"><strong>Account dropdown</strong><span>Logged-in state</span><p>Once a visitor signs in, the top right updates to a compact avatar menu instead of showing auth buttons.</p></div>
-              <div class="devlog-item"><strong>Launch notes built in</strong><span>Practical handoff</span><p>The payment and contact form spots are clearly marked so it is easier to finish your live setup.</p></div>
+              <div class="devlog-item"><strong>Launch notes built in</strong><span>Practical handoff</span><p>The payment, support, and auth setup points are centralized so it is easier to finish your live setup fast.</p></div>
             </div>
           </div>
         </div>
@@ -172,9 +179,9 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <div class="brand" style="margin-bottom: .8rem;"><span class="brand-mark"></span><span>gemshidden</span></div>
-        <p class="small">gemshidden is structured as a premium digital content brand with clear navigation, account flow, support information, and direct pass purchase paths.</p>
-        <p class="small">Support: support@gemshidden.com</p>
+        <div class="brand" style="margin-bottom: .8rem;"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></div>
+        <p class="small">Gems Hidden is structured as a premium digital content brand with clear navigation, account flow, support information, and direct pass purchase paths.</p>
+        <p class="small">Support: support@Gems Hidden.com</p>
       </div>
       <div>
         <div class="footer-links">
@@ -189,6 +196,8 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

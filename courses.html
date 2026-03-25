@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Passes — gemshidden</title>
-  <meta name="description" content="Browse premium passes and redirect buyers to checkout from gemshidden." />
+  <title>Passes — Gems Hidden</title>
+  <meta name="description" content="Browse premium passes and redirect buyers to checkout from Gems Hidden." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a href="index.html" class="brand"><span class="brand-mark"></span><span>gemshidden</span></a>
+      <a href="index.html" class="brand"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a class="active" href="courses.html">Passes</a>
@@ -38,7 +38,7 @@
     <section class="section hero">
       <div class="container">
         <span class="eyebrow">Premium offers</span>
-        <h1 class="section-title" style="max-width: 900px;">Checkout-ready pass cards for gemshidden</h1>
+        <h1 class="section-title" style="max-width: 900px;">Checkout-ready pass cards for Gems Hidden</h1>
         <p class="section-copy">Each button below is wired for a payment redirect. If a visitor is not signed in yet, the site pushes them to sign up first so you have a cleaner account flow before purchase.</p>
         <div class="checkout-note">Replace the placeholder Stripe URLs in <strong>script.js</strong> to make these buttons go live.</div>
         <div class="pricing-grid">
@@ -55,12 +55,14 @@
       <div class="container grid grid-3 feature-grid">
         <article class="card"><div class="card-body"><div class="icon-chip">🧭</div><h3>Guided buyer flow</h3><p>Signed-out users are sent into account creation instead of a confusing dead-end purchase click.</p></div></article>
         <article class="card"><div class="card-body"><div class="icon-chip">💼</div><h3>More professional presentation</h3><p>Pricing cards are cleaner, easier to scan, and built to feel more polished.</p></div></article>
-        <article class="card"><div class="card-body"><div class="icon-chip">⚙️</div><h3>Easy handoff setup</h3><p>Payment links are centralized in one script so going live is faster.</p></div></article>
+        <article class="card"><div class="card-body"><div class="icon-chip">⚙️</div><h3>Easy handoff setup</h3><p>Payment links are centralized in config.js so going live is faster.</p></div></article>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span>gemshidden</span></div><p class="small">Use these passes as your live checkout offers once your Stripe links are dropped in.</p></div><div><div class="footer-links"><a href="signin.html">Sign in</a><a href="signup.html">Sign up</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a></div></div></div></footer>
+  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></div><p class="small">Use these passes as your live checkout offers once your Stripe links are dropped in.</p></div><div><div class="footer-links"><a href="signin.html">Sign in</a><a href="signup.html">Sign up</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a></div></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

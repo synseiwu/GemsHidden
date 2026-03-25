@@ -3,22 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sign up — gemshidden</title>
-  <meta name="description" content="Create your gemshidden account." />
+  <title>Sign up — Gems Hidden</title>
+  <meta name="description" content="Create your Gems Hidden account." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header"><div class="container nav-wrap"><a href="index.html" class="brand"><span class="brand-mark"></span><span>gemshidden</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><div class="header-actions" data-header-actions></div><button class="mobile-toggle" data-mobile-toggle aria-expanded="false">☰</button></div><div class="container mobile-menu" data-mobile-menu><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><div class="mobile-actions" data-mobile-actions></div></div></header>
+  <header class="site-header"><div class="container nav-wrap"><a href="index.html" class="brand"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><div class="header-actions" data-header-actions></div><button class="mobile-toggle" data-mobile-toggle aria-expanded="false">☰</button></div><div class="container mobile-menu" data-mobile-menu><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><div class="mobile-actions" data-mobile-actions></div></div></header>
   <main class="auth-layout">
     <div class="container auth-layout">
       <section class="card auth-panel">
         <div class="card-body auth-side">
           <span class="kicker">Get started</span>
-          <h1 class="auth-title">Create your gemshidden account</h1>
-          <p class="section-copy">This demo account system uses browser storage, which is perfect for previewing the site flow before you connect a real backend.</p>
+          <span class="status-pill" data-auth-mode style="margin-top:.9rem"></span>
+          <h1 class="auth-title">Create your Gems Hidden account</h1>
+          <p class="section-copy">This package is prepared for live Supabase auth. Until your keys are added in config.js, it falls back to demo mode for previewing the flow.</p>
           <div class="checkout-note" data-pending-plan style="display:none"></div>
           <form class="auth-form" data-signup-form>
             <input class="input" type="text" name="name" placeholder="Full name" required>
@@ -40,7 +41,9 @@
       </aside>
     </div>
   </main>
-  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span>gemshidden</span></div><p class="small">Simple sign up page included in the package.</p></div><div><div class="footer-links"><a href="signin.html">Sign in</a><a href="courses.html">Passes</a></div></div></div></footer>
+  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></div><p class="small">Simple sign up page included in the package.</p></div><div><div class="footer-links"><a href="signin.html">Sign in</a><a href="courses.html">Passes</a></div></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

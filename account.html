@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your account — gemshidden</title>
-  <meta name="description" content="Manage your gemshidden account." />
+  <title>Your account — Gems Hidden</title>
+  <meta name="description" content="Manage your Gems Hidden account." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header"><div class="container nav-wrap"><a href="index.html" class="brand"><span class="brand-mark"></span><span>gemshidden</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><div class="header-actions" data-header-actions></div><button class="mobile-toggle" data-mobile-toggle aria-expanded="false">☰</button></div><div class="container mobile-menu" data-mobile-menu><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><div class="mobile-actions" data-mobile-actions></div></div></header>
+  <header class="site-header"><div class="container nav-wrap"><a href="index.html" class="brand"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><div class="header-actions" data-header-actions></div><button class="mobile-toggle" data-mobile-toggle aria-expanded="false">☰</button></div><div class="container mobile-menu" data-mobile-menu><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><div class="mobile-actions" data-mobile-actions></div></div></header>
   <main data-account-gate>
     <section class="section hero">
       <div class="container dashboard-grid">
@@ -25,12 +25,12 @@
               </div>
             </div>
             <span class="status-pill">Signed in</span>
-            <div class="info-tile" style="margin-top:1rem;"><strong>Current pass</strong><p data-account-plan style="margin-top:.35rem"></p></div>
+            <div class="info-tile" style="margin-top:1rem;"><strong>Current pass</strong><p data-account-plan style="margin-top:.35rem"></p></div><div class="info-tile" style="margin-top:1rem;"><strong>Account mode</strong><p style="margin-top:.35rem">This package supports live Supabase auth when configured in config.js.</p></div>
           </div>
         </div>
         <div>
           <span class="eyebrow">Your account</span>
-          <h1 class="section-title">A clean member page for gemshidden</h1>
+          <h1 class="section-title">A clean member page for Gems Hidden</h1>
           <p class="section-copy">This page gives logged-in users a simple place to land after they sign in or sign up.</p>
         </div>
       </div>
@@ -62,7 +62,9 @@
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span>gemshidden</span></div><p class="small">Member account view included in the package.</p></div><div><div class="footer-links"><a href="courses.html">Passes</a><a href="contact.html">Contact</a></div></div></div></footer>
+  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></div><p class="small">Member account view included in the package.</p></div><div><div class="footer-links"><a href="courses.html">Passes</a><a href="contact.html">Contact</a></div></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

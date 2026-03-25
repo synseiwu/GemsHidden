@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About — gemshidden</title>
-  <meta name="description" content="Learn about gemshidden and the creator-led premium digital brand behind the site." />
+  <title>About — Gems Hidden</title>
+  <meta name="description" content="Learn about Gems Hidden and the creator-led premium digital brand behind the site." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header"><div class="container nav-wrap"><a href="index.html" class="brand"><span class="brand-mark"></span><span>gemshidden</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="courses.html">Passes</a><a class="active" href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><div class="header-actions" data-header-actions></div><button class="mobile-toggle" data-mobile-toggle aria-expanded="false">☰</button></div><div class="container mobile-menu" data-mobile-menu><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><div class="mobile-actions" data-mobile-actions></div></div></header>
+  <header class="site-header"><div class="container nav-wrap"><a href="index.html" class="brand"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="courses.html">Passes</a><a class="active" href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><div class="header-actions" data-header-actions></div><button class="mobile-toggle" data-mobile-toggle aria-expanded="false">☰</button></div><div class="container mobile-menu" data-mobile-menu><a href="index.html">Home</a><a href="courses.html">Passes</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><div class="mobile-actions" data-mobile-actions></div></div></header>
   <main>
     <section class="section hero">
       <div class="container">
         <span class="eyebrow">About the brand</span>
-        <h1 class="section-title">gemshidden is designed to feel premium, clean, and easy to trust</h1>
+        <h1 class="section-title">Gems Hidden is designed to feel premium, clean, and easy to trust</h1>
         <p class="section-copy">This version of the site focuses on a better customer journey: stronger branding, a smoother account flow, and clearer conversion steps from browse to sign up to checkout.</p>
       </div>
     </section>
@@ -26,11 +26,13 @@
         <article class="card"><div class="card-body"><h3>The mission</h3><p>Create a more professional front-end experience that feels launch-ready and easier for customers to understand.</p></div></article>
         <article class="card"><div class="card-body"><h3>The upgrade focus</h3><p>Improve navigation, add missing auth pages, and make buying paths more direct and consistent.</p></div></article>
         <article class="card"><div class="card-body"><h3>Why it converts better</h3><p>Cleaner branding, simpler actions, and clearer support information make the whole site feel more legitimate.</p></div></article>
-        <article class="card"><div class="card-body"><h3>What still needs your live info</h3><p>Add your real payment URLs, support inbox, and any final legal wording before public launch.</p></div></article>
+        <article class="card"><div class="card-body"><h3>What still needs your live info</h3><p>Add your real Stripe links in <strong>config.js</strong>, paste your Supabase keys, and point the support email to your domain inbox.</p></div></article>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span>gemshidden</span></div><p class="small">A cleaner premium brand experience with practical account and checkout improvements.</p></div><div><div class="footer-links"><a href="courses.html">Passes</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div></div></div></footer>
+  <footer class="site-footer"><div class="container footer-grid"><div><div class="brand" style="margin-bottom:.8rem"><span class="brand-mark"></span><span data-brand-text>Gems Hidden</span></div><p class="small">A cleaner premium brand experience with practical account and checkout improvements.</p></div><div><div class="footer-links"><a href="courses.html">Passes</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
