@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Forgeframe Academy — Learn Game Development by Building Alongside a Real Creator</title>
-  <meta name="description" content="Premium game development education platform selling digital course videos, tutorials, project breakdowns, and behind-the-scenes creator content." />
+  <title>gemshidden — Premium creator-led digital learning</title>
+  <meta name="description" content="gemshidden sells premium digital learning passes, tutorials, breakdowns, and behind-the-scenes creator education." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,25 +13,24 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Forgeframe Academy</span>
-      </a>
+      <a href="index.html" class="brand"><span class="brand-mark"></span><span>gemshidden</span></a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a class="active" href="index.html">Home</a>
-        <a href="courses.html">Courses</a>
+        <a href="courses.html">Passes</a>
         <a href="about.html">About</a>
         <a href="faq.html">FAQ</a>
         <a href="contact.html">Contact</a>
       </nav>
+      <div class="header-actions" data-header-actions></div>
       <button class="mobile-toggle" data-mobile-toggle aria-label="Open menu" aria-expanded="false">☰</button>
     </div>
     <div class="container mobile-menu" data-mobile-menu>
       <a href="index.html">Home</a>
-      <a href="courses.html">Courses</a>
+      <a href="courses.html">Passes</a>
       <a href="about.html">About</a>
       <a href="faq.html">FAQ</a>
       <a href="contact.html">Contact</a>
+      <div class="mobile-actions" data-mobile-actions></div>
     </div>
   </header>
 
@@ -39,57 +38,42 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">Digital educational products for aspiring game developers</span>
-          <h1>Learn Game Development by Building Alongside a Real Creator</h1>
-          <p>Step into my journey through video game development with course videos, practical tutorials, project breakdowns, and behind-the-scenes lessons designed to help you learn by following real progress. Everything offered here is digital educational content focused on building, documenting, and understanding game development in a modern creator-first format.</p>
+          <span class="eyebrow">Premium digital education and behind-the-scenes creator content</span>
+          <h1>Learn from real creator progress inside gemshidden</h1>
+          <p>gemshidden is built to feel polished, trustworthy, and easy to buy from. Visitors can browse premium learning passes, create an account, and move from signup to checkout with a cleaner modern experience.</p>
           <div class="btn-row">
-            <a class="btn btn-primary" href="courses.html">Explore Course Tiers</a>
-            <a class="btn btn-secondary" href="#journey">Follow the Journey</a>
+            <a class="btn btn-primary" href="courses.html">Explore passes</a>
+            <a class="btn btn-secondary" href="signup.html">Create account</a>
           </div>
           <div class="hero-stats">
-            <div class="stat">
-              <strong>Project-Based</strong>
-              <span>Learn from real builds, real iteration, and real creator workflow.</span>
-            </div>
-            <div class="stat">
-              <strong>Digital Access</strong>
-              <span>Course videos, tutorials, breakdowns, and devlog education content.</span>
-            </div>
-            <div class="stat">
-              <strong>Trust Ready</strong>
-              <span>Clear digital product language, policies, contact info, and transparent site structure.</span>
-            </div>
+            <div class="stat"><strong>Fast account flow</strong><span>Sign up, sign in, and manage a simple account view.</span></div>
+            <div class="stat"><strong>Checkout-ready</strong><span>Each pass can route to its own payment link when your Stripe URLs are added.</span></div>
+            <div class="stat"><strong>Trust-focused</strong><span>Policies, support information, and cleaner calls to action across the site.</span></div>
           </div>
         </div>
         <div class="card hero-panel">
           <div class="hero-visual">
             <div class="dev-window">
-              <div class="window-bar">
-                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-              </div>
+              <div class="window-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
               <div class="window-content">
                 <div class="code-lines">
-                  <div class="code-line" style="width: 92%"></div>
-                  <div class="code-line"></div>
-                  <div class="code-line" style="width: 70%"></div>
-                  <div class="code-line" style="width: 86%"></div>
-                  <div class="code-line" style="width: 60%"></div>
+                  <div class="code-line" style="width: 95%"></div>
+                  <div class="code-line" style="width: 82%"></div>
+                  <div class="code-line" style="width: 72%"></div>
+                  <div class="code-line" style="width: 88%"></div>
+                  <div class="code-line" style="width: 64%"></div>
                 </div>
               </div>
             </div>
             <div class="mini-grid">
               <div class="mini-panel">
-                <h4>Featured Course</h4>
-                <p>Build a game from zero with devlogs, breakdowns, and creator-led workflow lessons.</p>
-                <div class="tag-row">
-                  <span class="tag">Digital videos</span>
-                  <span class="tag">Tutorials</span>
-                  <span class="tag">Creator insight</span>
-                </div>
+                <h4>Member-ready UI</h4>
+                <p>Header buttons switch to an account avatar dropdown after sign in.</p>
+                <div class="tag-row"><span class="tag">Sign in</span><span class="tag">Sign up</span><span class="tag">Account</span></div>
               </div>
               <div class="mini-panel">
-                <h4>Behind the Scenes</h4>
-                <p>Follow design choices, mistakes, iteration, and practical problem solving.</p>
+                <h4>Professional polish</h4>
+                <p>Improved layout, clearer navigation, and stronger conversion points.</p>
               </div>
             </div>
           </div>
@@ -99,14 +83,14 @@
 
     <section class="section">
       <div class="container">
-        <span class="eyebrow">What you'll learn</span>
-        <h2 class="section-title">A practical learning path built around real development work</h2>
-        <p class="section-copy">Instead of only theory, the platform is centered on showing how game development actually unfolds: planning, prototyping, art direction, systems, iteration, problem solving, and creator decision making. Every product is positioned as digital educational content, tutorials, and course videos designed to teach through documented progress.</p>
-        <div class="grid grid-4 learn-grid" style="margin-top: 1.75rem;">
-          <article class="card"><div class="card-body"><div class="icon-chip">🎮</div><h3>Core Development Skills</h3><p>Understand workflow, systems thinking, prototyping, and how projects evolve from concept to playable experience.</p></div></article>
-          <article class="card"><div class="card-body"><div class="icon-chip">🧠</div><h3>Real Creator Decision Making</h3><p>See how design choices get made, revised, and improved in actual project-based development.</p></div></article>
-          <article class="card"><div class="card-body"><div class="icon-chip">🛠️</div><h3>Tutorial-Led Learning</h3><p>Use digital course videos and breakdowns to follow techniques you can repeat in your own builds.</p></div></article>
-          <article class="card"><div class="card-body"><div class="icon-chip">📦</div><h3>Behind-the-Scenes Context</h3><p>Learn from devlogs, process notes, scope changes, and lessons that usually stay hidden from standard courses.</p></div></article>
+        <span class="eyebrow">What makes the update stronger</span>
+        <h2 class="section-title">A cleaner buying experience with better quality-of-life details</h2>
+        <p class="section-copy">The site now supports account pages, dedicated auth screens, purchase buttons built for direct payment redirects, and a more premium look that feels easier to trust.</p>
+        <div class="grid grid-4" style="margin-top: 1.75rem;">
+          <article class="card"><div class="card-body"><div class="icon-chip">✨</div><h3>Sharper branding</h3><p>Every main page now uses the gemshidden name and a more cohesive premium visual style.</p></div></article>
+          <article class="card"><div class="card-body"><div class="icon-chip">🔐</div><h3>Auth pages included</h3><p>Dedicated sign in and sign up pages are part of the package and wired into the header.</p></div></article>
+          <article class="card"><div class="card-body"><div class="icon-chip">💳</div><h3>Checkout routing</h3><p>Pass buttons are ready to redirect to individual payment links once your real Stripe links are added.</p></div></article>
+          <article class="card"><div class="card-body"><div class="icon-chip">📱</div><h3>Better mobile flow</h3><p>Responsive menu, clearer buttons, and cleaner spacing across mobile and desktop.</p></div></article>
         </div>
       </div>
     </section>
@@ -114,20 +98,20 @@
     <section class="section" id="featured-course">
       <div class="container split">
         <div>
-          <span class="eyebrow">Featured course</span>
-          <h2 class="section-title">Build Through the Full Journey</h2>
-          <p class="section-copy">The signature learning experience combines course videos, practical tutorials, project breakdowns, and behind-the-scenes creator commentary. It is structured for beginners and aspiring indie developers who want to learn by seeing a real project take shape over time.</p>
-          <div class="inline-note">All offerings on this site are digital educational products related to video game development, including video lessons, tutorials, workflow breakdowns, creator documentation, and learning resources.</div>
+          <span class="eyebrow">Built for conversion</span>
+          <h2 class="section-title">Move people from curiosity to account creation to purchase</h2>
+          <p class="section-copy">Instead of sending buyers into a dead end, the updated flow guides them through signup, checkout-ready passes, and support pages that make the business feel more complete.</p>
+          <div class="inline-note">Before launch, replace the placeholder Stripe links inside <strong>script.js</strong> with your real checkout URLs for each pass.</div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h3>Inside the learning experience</h3>
+            <h3>What’s already handled</h3>
             <ul class="list-clean">
-              <li>Structured course videos focused on game development learning</li>
-              <li>Practical tutorials and project breakdowns for beginners and indie creators</li>
-              <li>Creator-led commentary documenting a real development journey</li>
-              <li>Behind-the-scenes lessons on iteration, mistakes, and progress</li>
-              <li>Premium digital access organized by tier and depth of learning</li>
+              <li>Dedicated sign in and sign up screens</li>
+              <li>Account dropdown in the header after login</li>
+              <li>Account page with simple member details</li>
+              <li>Pass buttons prepared for payment redirects</li>
+              <li>Newsletter and contact demo flows with launch notes</li>
             </ul>
           </div>
         </div>
@@ -136,15 +120,13 @@
 
     <section class="section" id="pricing">
       <div class="container">
-        <span class="eyebrow">Course pricing</span>
-        <h2 class="section-title">Choose the depth of access that fits your learning stage</h2>
-        <p class="section-copy">Every pass includes digital educational content related to game development. Tiers scale access to course videos, tutorials, project breakdowns, devlogs, and premium creator-led lessons.</p>
+        <span class="eyebrow">Featured passes</span>
+        <h2 class="section-title">Pick the level of access that fits your audience</h2>
+        <p class="section-copy">These pass cards are now wired for account-aware checkout behavior. Signed-out users are pushed to create an account first, then you can send them straight to payment.</p>
         <div class="pricing-grid">
-          <article class="card price-card"><div class="card-body"><h3>Starter Pass</h3><div class="price">$30</div><p>Entry-level access to foundational digital course videos and tutorials for beginners.</p><ul><li>Intro learning library</li><li>Beginner project tutorials</li><li>Selected creator breakdowns</li></ul><div class="price-foot"><a class="btn btn-secondary" href="contact.html">Get Started</a></div></div></article>
-          <article class="card price-card"><div class="card-body"><h3>Builder Pass</h3><div class="price">$75</div><p>Expanded tutorial access for creators ready to build alongside a real documented workflow.</p><ul><li>Broader video catalog</li><li>More detailed breakdowns</li><li>Progress-driven lessons</li></ul><div class="price-foot"><a class="btn btn-secondary" href="contact.html">Choose Builder</a></div></div></article>
-          <article class="card price-card featured"><div class="badge">Most Popular</div><div class="card-body"><h3>Forge Pass</h3><div class="price">$150</div><p>Premium course experience with stronger access to project-based learning and devlog education.</p><ul><li>Premium tutorials</li><li>Deep project breakdowns</li><li>Creator process access</li></ul><div class="price-foot"><a class="btn btn-primary" href="contact.html">Choose Forge</a></div></div></article>
-          <article class="card price-card"><div class="card-body"><h3>Studio Pass</h3><div class="price">$350</div><p>High-tier access to advanced creator-led educational content and deeper behind-the-scenes workflow.</p><ul><li>Advanced video library</li><li>Extended process content</li><li>More in-depth devlogs</li></ul><div class="price-foot"><a class="btn btn-secondary" href="contact.html">Choose Studio</a></div></div></article>
-          <article class="card price-card"><div class="card-body"><h3>Founder Pass</h3><div class="price">$400</div><p>Top-level digital learning access for supporters who want the most complete creator education tier.</p><ul><li>Full premium access</li><li>Founder-level content vault</li><li>Early creator journey updates</li></ul><div class="price-foot"><a class="btn btn-secondary" href="contact.html">Choose Founder</a></div></div></article>
+          <article class="card price-card"><div class="card-body"><h3>Starter Pass</h3><div class="price">$30</div><p>A lower-entry purchase for first-time buyers.</p><ul><li>Entry content access</li><li>Great for new customers</li><li>Simple low-friction offer</li></ul><div class="price-foot"><a class="btn btn-secondary" href="#" data-plan="starter">Buy Starter</a></div></div></article>
+          <article class="card price-card"><div class="card-body"><h3>Builder Pass</h3><div class="price">$75</div><p>A stronger value tier for customers wanting more depth.</p><ul><li>Expanded access</li><li>Higher perceived value</li><li>Good mid-tier option</li></ul><div class="price-foot"><a class="btn btn-secondary" href="#" data-plan="builder">Buy Builder</a></div></div></article>
+          <article class="card price-card featured"><div class="badge">Most Popular</div><div class="card-body"><h3>Forge Pass</h3><div class="price">$150</div><p>A premium core offer built to stand out as the main choice.</p><ul><li>Featured offer positioning</li><li>Premium access tier</li><li>Better conversion focus</li></ul><div class="price-foot"><a class="btn btn-primary" href="#" data-plan="forge">Buy Forge</a></div></div></article>
         </div>
       </div>
     </section>
@@ -152,16 +134,16 @@
     <section class="section" id="journey">
       <div class="container split">
         <div>
-          <span class="eyebrow">Follow the journey</span>
-          <h2 class="section-title">Learn by watching real progress unfold</h2>
-          <p class="section-copy">The brand is built around documenting the actual path into game development. Visitors are not just buying isolated videos. They are gaining access to creator-led educational content that shows a real build process, real milestones, and real lessons as the journey evolves.</p>
+          <span class="eyebrow">Professional quality-of-life additions</span>
+          <h2 class="section-title">Small details that make the whole site feel better</h2>
+          <p class="section-copy">Clearer page hierarchy, better button states, account-aware navigation, responsive mobile handling, and a more polished footer all help the site feel much more launch-ready.</p>
         </div>
         <div class="card">
           <div class="card-body">
             <div class="devlog-list">
-              <div class="devlog-item"><strong>Devlog 01 — First Playable Prototype</strong><span>Progress update</span><p>See how the initial concept becomes a testable build and what early mistakes teach about scope and systems.</p></div>
-              <div class="devlog-item"><strong>Devlog 02 — Mechanics Breakdown</strong><span>Creator lesson</span><p>Break down the thinking behind core mechanics, iteration loops, and how features get refined over time.</p></div>
-              <div class="devlog-item"><strong>Devlog 03 — Art, Feel, and Direction</strong><span>Behind the scenes</span><p>Follow the visual and creative decisions that shape the identity of the project while learning practical workflow insights.</p></div>
+              <div class="devlog-item"><strong>Cleaner navigation</strong><span>Less friction</span><p>Primary links are easier to scan and the action buttons stay consistent across the site.</p></div>
+              <div class="devlog-item"><strong>Account dropdown</strong><span>Logged-in state</span><p>Once a visitor signs in, the top right updates to a compact avatar menu instead of showing auth buttons.</p></div>
+              <div class="devlog-item"><strong>Launch notes built in</strong><span>Practical handoff</span><p>The payment and contact form spots are clearly marked so it is easier to finish your live setup.</p></div>
             </div>
           </div>
         </div>
@@ -169,64 +151,19 @@
     </section>
 
     <section class="section">
-      <div class="container split">
-        <div>
-          <span class="eyebrow">Creator-led learning</span>
-          <h2 class="section-title">A modern education brand built on transparency and trust</h2>
-          <p class="section-copy">This platform presents the creator as both learner and guide: documenting the real process of getting deeper into game development while turning that experience into premium educational content for others. The result is a more honest and motivating way to learn than polished theory alone.</p>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h3>Why it feels trustworthy</h3>
-            <ul class="list-clean">
-              <li>Clear explanation that products are digital educational materials</li>
-              <li>Visible pricing and tier structure</li>
-              <li>Accessible FAQ, contact details, and policy pages</li>
-              <li>Professional brand presentation built for payment processor confidence</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <span class="eyebrow">Student testimonials</span>
-        <h2 class="section-title">Placeholder social proof for future student feedback</h2>
-        <div class="testimonial-grid" style="margin-top: 1.5rem;">
-          <article class="card"><div class="card-body"><p class="quote">“This helped me understand what game development actually looks like in practice. The real project breakdowns made everything easier to follow.”</p><div class="quote-meta">Future student testimonial placeholder</div></div></article>
-          <article class="card"><div class="card-body"><p class="quote">“It feels like learning from someone building in real time, not just watching disconnected tutorials. That made it way more motivating.”</p><div class="quote-meta">Future student testimonial placeholder</div></div></article>
-          <article class="card"><div class="card-body"><p class="quote">“The behind-the-scenes creator lessons gave me a clearer picture of process, scope, and how to actually improve my own projects.”</p><div class="quote-meta">Future student testimonial placeholder</div></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
       <div class="container card newsletter">
         <div class="card-body">
-          <span class="eyebrow">Email signup</span>
-          <h2 class="section-title" style="font-size: clamp(1.9rem, 4vw, 2.6rem);">Get devlogs, new course drops, and creator updates</h2>
-          <p class="section-copy">Join the list for premium education updates, project milestones, and new digital course releases.</p>
+          <span class="eyebrow">Email capture</span>
+          <h2 class="section-title" style="font-size: clamp(1.9rem, 4vw, 2.6rem);">Collect interest before and after launch</h2>
+          <p class="section-copy">Use this section to start building your list while the full platform keeps growing.</p>
         </div>
         <div class="card-body">
-          <form class="news-form">
+          <form class="news-form" data-news-form>
             <input class="input" type="email" placeholder="Enter your email" aria-label="Email address" />
-            <button class="btn btn-primary" type="button">Join the List</button>
+            <button class="btn btn-primary" type="submit">Join the list</button>
           </form>
-          <p class="notice">By signing up, visitors receive updates about digital educational content, tutorials, course releases, and creator progress.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <span class="eyebrow">FAQ</span>
-        <h2 class="section-title">Common questions</h2>
-        <div class="faq-list">
-          <details class="card faq-item" open><summary class="card-body">What is being sold on this website?<span>+</span></summary><div class="card-body"><p>This website sells digital educational products related to video game development, including course videos, practical tutorials, project breakdowns, devlogs, and creator-led learning content.</p></div></details>
-          <details class="card faq-item"><summary class="card-body">Are these physical products or services?<span>+</span></summary><div class="card-body"><p>No. The offerings are digital educational content only. Customers are purchasing access to learning materials and creator documentation related to game development.</p></div></details>
-          <details class="card faq-item"><summary class="card-body">Who are these courses for?<span>+</span></summary><div class="card-body"><p>The content is designed for aspiring game developers, indie creators, beginners, and people who want to learn through practical project-based videos rather than theory alone.</p></div></details>
-          <details class="card faq-item"><summary class="card-body">How do refunds work?<span>+</span></summary><div class="card-body"><p>Refunds are governed by the Refund Policy. Because the products are digital educational materials, the policy should clearly define access, delivery, and eligibility terms.</p></div></details>
+          <div class="alert" data-news-alert></div>
+          <p class="notice">This demo stores signups locally in the browser until you connect a real email platform.</p>
         </div>
       </div>
     </section>
@@ -235,21 +172,19 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <div class="brand" style="margin-bottom: .8rem;"><span class="brand-mark"></span><span>Forgeframe Academy</span></div>
-        <p class="small">Forgeframe Academy provides digital educational content focused on video game development, including course videos, tutorials, project breakdowns, behind-the-scenes creator lessons, and devlog-based learning resources.</p>
-        <p class="small">Contact: hello@forgeframeacademy.com</p>
+        <div class="brand" style="margin-bottom: .8rem;"><span class="brand-mark"></span><span>gemshidden</span></div>
+        <p class="small">gemshidden is structured as a premium digital content brand with clear navigation, account flow, support information, and direct pass purchase paths.</p>
+        <p class="small">Support: support@gemshidden.com</p>
       </div>
       <div>
         <div class="footer-links">
-          <a href="courses.html">Courses</a>
+          <a href="courses.html">Passes</a>
           <a href="about.html">About</a>
           <a href="faq.html">FAQ</a>
           <a href="contact.html">Contact</a>
-          <a href="contact.html#terms">Terms of Service</a>
-          <a href="contact.html#privacy">Privacy Policy</a>
-          <a href="contact.html#refunds">Refund Policy</a>
+          <a href="signin.html">Sign in</a>
+          <a href="signup.html">Sign up</a>
         </div>
-        <p class="notice">This website is designed to present a legitimate, transparent digital education business with clear policies, contact information, and product descriptions for payment processor trust.</p>
       </div>
     </div>
   </footer>
